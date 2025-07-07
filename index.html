@@ -1,28 +1,20 @@
-<!-- TikTok Shop Affiliate Agency Functional Website -->
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>TrendPilot — TikTok Shop Affiliate Growth</title>
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-  <script>
-    function submitForm(event) {
-      event.preventDefault();
-      const name = document.getElementById('name').value;
-      const email = document.getElementById('email').value;
-      const product = document.getElementById('product').value;
-      alert(`Thank you, ${name}! We'll review your product: ${product} and get back to you at ${email}.`);
-    }
-  </script>
 </head>
 <body class="bg-white text-gray-900 font-sans">
   <header class="bg-black text-white py-8">
-    <div class="max-w-5xl mx-auto px-4">
+    <div class="max-w-5xl mx-auto px-4 text-center">
       <h1 class="text-4xl font-bold">TrendPilot — Sell More on TikTok Shop</h1>
       <p class="mt-2 text-lg">We connect your products with viral creators who drive real sales, fast — no ad budget required.</p>
     </div>
   </header>
 
+  <main class="max-w-5xl mx-auto px-4 py-12 space-y-12 text-center">
     <section>
       <h2 class="text-2xl font-bold mb-4">What We Do</h2>
       <p>We’re a TikTok Shop Affiliate Agency that matches your products with proven TikTok creators. No upfront ad spend — you only pay based on actual performance.</p>
@@ -30,7 +22,7 @@
 
     <section>
       <h2 class="text-2xl font-bold mb-4">How It Works</h2>
-      <ol class="list-decimal pl-6 space-y-2">
+      <ol class="list-decimal pl-6 space-y-2 text-left inline-block">
         <li>We handpick creators in your niche</li>
         <li>They post authentic, high-performing TikToks</li>
         <li>Sales are tracked via TikTok’s affiliate dashboard</li>
@@ -40,7 +32,7 @@
 
     <section>
       <h2 class="text-2xl font-bold mb-4">Why It Works</h2>
-      <ul class="list-disc pl-6 space-y-1">
+      <ul class="list-disc pl-6 space-y-1 text-left inline-block">
         <li>🔍 Creators with 10k–500k+ followers, vetted for engagement</li>
         <li>🧠 Clear creative briefs to ensure consistent quality</li>
         <li>📊 Transparent analytics: views, clicks, conversions</li>
@@ -84,5 +76,15 @@
   <footer class="bg-gray-100 text-gray-600 text-sm text-center py-4">
     © 2025 TrendPilot. All rights reserved.
   </footer>
+
+  <script>
+    function submitForm(event) {
+      event.preventDefault();
+      const name = document.getElementById('name').value;
+      const email = document.getElementById('email').value;
+      const product = document.getElementById('product').value;
+      alert(`Thank you, ${name}! We'll review your product: ${product} and get back to you at ${email}.`);
+    }
+  </script>
 </body>
 </html>
